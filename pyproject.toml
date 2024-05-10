@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "suportifycaracteres"
+version = "1.0.0"
+description = "Suportify"
+authors = ["Suportify"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+fastapi = "0.75.0"
+uvicorn = "0.17.6"
+httpx = "0.27.0"
+sqlalchemy = "1.4.31"
+pydantic = "1.9.0"
+tiktoken = "0.6.0"
+pdfminer-six = "20231228"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
